@@ -1,0 +1,24 @@
+{
+  "name": "survey_monkey",
+  "version": "1.0.0",
+  "description": "Survey Monkey API Frontend",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "yarn --cwd frontend start",
+    "build": "yarn --cwd frontend build",
+    "install": "yarn --cwd frontend install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desoleary/survey_monkey.git"
+  },
+  "author": "Desmond O'Leary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desoleary/survey_monkey/issues"
+  },
+  "homepage": "https://github.com/desoleary/survey_monkey#readme"
+}
