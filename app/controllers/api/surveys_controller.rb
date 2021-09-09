@@ -1,5 +1,6 @@
 class Api::SurveysController < ApplicationController
+
   def index
-    json_response([])
+    render json: Api.surveys
   end
 end
